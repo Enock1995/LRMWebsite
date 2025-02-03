@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My Admin DashBoard
+        </title>
+
+        <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: darkslategray;
+            }
+
+            .dashboard{
+                width: 80%;
+                margin: 40px auto;
+                background-color: #fff;
+                padding: 20px;
+                border: 1px solid #ddd;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .dashboard-content{
+                padding: 20px;
+            }
+
+            .dashboard-header{
+                background-color: #333;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .form-group{
+                margin-bottom: 20px;
+            }
+
+            .form-group label{
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .form-group input[type="text"], .form-group input[type = "date"], .form-group textarea {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+            }
+
+            .form-group input[type="submit"] {
+                background-color: #333;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .form-group input[type="submit"]:hover {
+                background-color: #444;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h1> Admin DashBoard </h1>
+            </div>
+
+            <div class="dashboard-content">
+                <h2> Add New Event</h2>
+
+
+                <!-- My Form-->
+                <form action="admindashboard.php" method="post" enctype="multipart/form-data">
+
+                     <!-- Names -->
+                     <div class="form-group">
+                        <label for="bgnames"> Bride & Groom:</label>
+
+                        <input type="text" id="bgnames" name="bgnames" required>
+                    </div>
+
+                    <!-- Invitiation Card-->
+                    <div class="form-group">
+                        <label for="image"> Invitation Card:</label>
+
+                        <input type="file" id="image" name="image" accept="image/*" required>
+                    </div>
+
+
+                    <!-- Date-->
+                    <div class="form-group">
+                        <label for="date"> Dates: </label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+
+                    <!-- Venue 1-->
+                    <div class="form-group">
+                        <label for="venue"> Venue 1:</label>
+
+                        <input type="text" id="venue" name="venue_first" required>
+                    </div>
+
+
+                    <!-- Venue 2 -->
+                    <div class="form-group">
+                        <label for="venue"> Venue 2:</label>
+
+                        <input type="text" id="venue" name="venue_second" required>
+                    </div>
+
+
+                    <!-- Submit button-->
+                    <div class="form-group">
+                        <input type="submit" value="Add Event">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

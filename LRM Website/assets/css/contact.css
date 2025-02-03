@@ -1,0 +1,40 @@
+.statement{
+    font-size: 1em;
+}
+
+body{
+          background: navy;
+          position: relative;
+          z-index: 2;
+      }
+    
+      
+      p{
+      
+          font-family: serif;
+          font-style: italic;
+          color: white;
+        
+      }
+      
+      
+      .myform{
+          
+          background: navy;
+      }
+      
+      
+      .btn{
+          font-family: serif;
+      }
+      
+      
+      
+      ul li a {
+    text-#: ###;
+    border-radius: 6px;
+}
+  
+  #gitwu{#
+      font-size: 0.6em;
+  }

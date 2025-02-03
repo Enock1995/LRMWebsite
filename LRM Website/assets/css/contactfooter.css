@@ -1,0 +1,45 @@
+a{
+    color: silver;
+}
+
+
+
+.tutorials li a{
+    color: darkblue;
+    font-size: 0.6em;
+}
+
+
+#footer{
+    font-family: serif;
+    font-size: 0.6em;
+}
+
+
+.tutor{
+    background-color: silver;
+}
+
+.col-md-6 {
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-6 img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+}
+
+.official-name{
+    font-family: serif;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+
+.column2{
+    margin-top: 
+}

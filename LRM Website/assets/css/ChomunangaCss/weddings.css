@@ -1,0 +1,86 @@
+
+/* Css for next event */
+#invitation-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.nxt-wed-content{
+    font-family: monaco;
+    text-align: center;
+    background: navy;
+    color: white;
+}
+
+@media(max-width: 768px){.nxt-wed{
+    background: whit
+}
+}
+
+
+.next-wed-col-2{
+    background: white;
+    height: auto;  
+}
+
+
+@media(min-width: 770px){ .next-wed-col-1{
+    width: 40%;
+    z-index: ;
+    border-radius: 6px 6px 6px 6px;
+    max-height: auto;
+    margin-top: 1em;
+}
+    
+}
+
+
+@media(min-width: 770px){ .next-wed-col-2{
+    width: 60%;
+    z-index: 1;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 0.5em;
+   
+}
+    
+}
+
+
+@media(min-width: 770px){ .nxt-wd-img{
+max-height: auto;  
+z-index: ;
+}
+    
+}
+
+
+@media(min-width: 770px){.next-wed-col-1{
+  
+}
+    
+}
+
+.nest-parent{
+    background: navy;
+    height: auto;
+    border-radius: 7px 7px 7px 7px;
+}
+
+
+.nest-child-1{
+   background: white;
+   height: auto; 
+   border-radius: 7px 7px 7px 7px;
+   color: navy;
+   font-family: monaco;
+}
+
+
+.nest-child-2{
+    background: white;
+   height: auto; 
+   border-radius: 7px 7px 7px 7px;
+   color: navy;
+   font-family: monaco;
+}

@@ -1,0 +1,228 @@
+
+
+*{
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width: 1100px){ *{
+    font-size: 1.03em;
+}
+}
+
+body{
+    background-color: skyblue;
+}
+
+@media(max-width: 768px){.page-header {
+  background: navy;
+}
+}
+
+.hdr {
+  height: 50vh; /* Set the header height */
+  background-image: url('images/header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+
+
+
+
+.bg-image {
+  background-size: cover;
+  max-width: 100%
+  height: auto;
+  object-fit: cover;
+}
+
+.bg-cover {
+  background-size: 
+}
+
+.bg-position-center {
+  background-position: center;
+}
+
+
+/* Body Css */
+.scroll{
+    font-family: serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.em;
+    font-size: 6vw;
+    text-shadow: 0.4vw 0.2vw skyblue;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.subscroll{
+    font-family: serif;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1.em;
+    font-size: 6vw;
+    text-shadow: 0.4vw 0.2vw skyblue;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 7px 7px 7px 7px;
+}
+
+
+.top-text{
+    background-color: navy;
+    border-radius: 7px;
+    color: white;
+    font-family: prestige;
+width: 100%;
+text-align: center;
+max-height: 70vh;
+font-size: 0.7em;
+font-weight: bold;
+}
+
+
+.content-dwn{
+display: flex;
+    font-family: serif;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.carousel-item img{
+    height: 80vh;
+}
+
+.calendar{
+    font-family: monaco;
+    font-size: 2.5em;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} 
+
+.sidebar-hidden{
+    display: none;
+}
+
+
+.w-100{
+    height: 80vh;
+}
+
+#my-pg-hdr{
+    
+}
+
+
+
+/* media queries */
+
+@media (max-width: 768px) and (orientation: portrait){.w-100{
+    height: 45vh !important;
+}
+}
+
+
+@media(min-width: 770px){.hdr{
+    width: 70vh;
+    height: 100vh;
+    border-radius: 100% !important;
+    z-index: 2;
+    display: none;
+}}
+
+/*medium to large screen image settings*/
+.md-lg-scrn{
+height: 60vh;
+width: 48%;
+    border-radius: 100%;
+    background-color: blue;
+}
+
+@media(min-width: 1100px){ .md-lg-scrn{
+ width: 32%;
+}
+}
+
+@media(min-width: 770px){.scroll{
+    font-size: 3vw;
+    z-index: 1;
+}   
+}
+
+@media(min-width: 770px){.subscroll{
+    font-size: 3vw;
+    z-index: 2;
+    display: inline;
+}
+
+
+@media(min-width: 770px){#my-pg-hdr{
+   background: silver;
+   border-radius: 8px 8px 8px 8px;
+}
+    
+}
+
+@media(min-width: 770px){.col-md-5{
+    z-index: 2 !important;
+}
+    
+}
+
+
+@media(min-width: 770px){.calendar, .top-text{
+    font-family: serif;
+}
+    
+}
+
+
+@media(max-width: 770px){#my-pg-hdr{
+    background: white;
+    border-radius: 8px 8px 8px 8px;
+}
+    
+}
+
+
+/*copyright*/
+
+@media(max-width: 768px){ .copyright{
+    font-size: 0.5em;
+    }
+    }
+
+@media(min-width: 769px){ .copyright{
+font-size: 0.8em;
+font-family: monospace;
+}
+}
+
+@media(min-width: 769px){ .copyright2{
+    font-size: 0.8em;
+    font-family: monospace;
+    }
+    }
+
+
+@media(min-width: 769px){ .sidebar.navlist{
+font-size: 1.0em;
+}
+}

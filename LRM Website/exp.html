@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    
+    <style>
+        
+        
+       body, html {
+  overflow-x: hidden; 
+}
+
+.image-container {
+  overflow-x: auto; 
+  white-space: nowrap;
+}
+
+.img{
+    display: inline-block;
+    margin:
+}
+ .img img {
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+ .img img {
+    width: 50vw;
+  }
+}
+
+@media(min-width: 770px) {
+   .img img{
+        width: 33.33vw;
+        height: 33.33vw;
+    }
+}
+        
+        
+    </style>
+    
+    
+</head>
+<body>
+        
+    <p class="container sunday-school-content">
+  This section is for Sunday School related information. The information here is accurate and upto date.
+    </p>
+     
+<div class="image-container"><br><br>
+    
+    <div class="img">
+  <img src="Images/header.jpg" alt="Image 1"></div>
+  
+  <div class="img">
+  <img src="Images/header.jpg" alt="Image 2"></div>
+  
+  <div class="img">
+  <img src="Images/header.jpg" alt="Image 3"></div>
+  
+  <div class="img">
+  <img src="Images/header.jpg" alt="Image 4"></div>
+  
+  <div class="img">
+  <img src="Images/header.jpg" alt="Image 5"></div><br><br>
+</div>
+
+ <p class="container sunday-school-content">
+  This section is for Sunday School related information. The information here is accurate and upto date.
+    </p>
+    
+    <p>My name is 
+    <code> Sir Enocks </code>
+from Mberengwa </p>
+
+<p>Regular text. <kbd>This is inside kbd element</kbd> Regular text.</p>
+ 
+ 
+ <p>The following word uses a <em>emphasized</em> typeface.</p>
+  
+  
+  <p>The following word has been <mark>marked</mark> with yellow</p>
+   
+   
+ <p>This text will go left to right.</p>
+
+<p><bdo dir="rtl">This text will go right to left.</bdo></p>  
+   
+   
+ <p>The following description of XHTML is taken from the W3C Web site:</p>
+
+ 
+
+<blockquote>XHTML 1.0 is the W3C's first Recommendation for XHTML, following on from earlier work on HTML 4.01, HTML 4.0, HTML 3.2 and HTML 2.0.</blockquote>  
+
+<center>
+<marquee style="background-color: yellow; width: 80%; color: navy; font-family: monospace; font-size: 13pt"><b>Copyright, &copy 2024, Sir Enocks Cor Technologies. All Rights Reserved.</b></marquee></center>
+
+
+
+<section id="next-event">
+  <h2>Next Event</h2>
+  <div id="invitation-card">
+    <!-- Image will be inserted here -->
+  </div>
+</section>
+
+
+<a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAUVC5YZUREUwQ1lUM0JNT1dNQ1FCQlEzWjFJMU5IRi4u&sharetoken=xFHY3BQVkhO4bkMWrKB7">talk to us</a>
+
+<br><br>
+<a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAUVC5YZUREUwQ1lUM0JNT1dNQ1FCQlEzWjFJMU5IRi4u&sharetoken=xFHY3BQVkhO4bkMWrKB7">taurai nesu</a>
+
+
+<div id="dyz"><!-- # of days must come here --> </div>
+
+
+<script>
+const events = [
+  {
+    image: 'event1-invitation-card.jpg',
+    date: '2024-09-20'
+  },
+  {
+    image: 'event2-invitation-card.jpg',
+    date: '2024-10-15'
+  },
+  // Add more events here...
+];
+
+function getNextEvent() {
+  const today = new Date();
+  const upcomingEvents = events.filter(event => new Date(event.date) > today);
+  return upcomingEvents[0]; // Return the next upcoming event
+}
+
+function updateNextEvent() {
+  const nextEvent = getNextEvent();
+  const invitationCardImage = document.createElement('img');
+  invitationCardImage.src = nextEvent.image;
+  document.getElementById('invitation-card').appendChild(invitationCardImage);
+}
+</script>
+
+
+
+
+
+
+<script>
+function getDaysUntilNextEvent() {
+  
+  const today = new Date();
+  
+  
+  const events = [
+    new Date(today.getFullYear(), 8, 28),  
+    new Date(today.getFullYear(), 9, 19),  
+    new Date(today.getFullYear(), 10, 6),   
+    new Date(today.getFullYear(), 11, 21),  
+  ];
+  
+ 
+  for (let i = 0; i < events.length; i++) {
+    if (events[i] > today) {
+      
+      const timeDifference = events[i] - today;
+      
+      const daysDifference = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+     
+      return `Days until next event (Event ${i + 1}): ${daysDifference}`;
+    }
+  }
+
+
+  return "All events for this year have passed.";
+}
+
+if(nextEvent) {
+const timeDifference
+
+document.getElementById("dyz").innerHTML = 'Days until ${nextEvent.name}: $⁰{daysDifference}';
+
+</script>
+
+<div id="dyz"><!-- # of days must come here --></div>
+
+</body>
+</html>
+

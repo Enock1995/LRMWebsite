@@ -1,0 +1,470 @@
+
+.hdr{
+    border-radius: 3% !important;
+}
+
+
+/* service-dep */
+.service-dep{
+    border-radius: 8px 8px 8px 8px;
+    height: auto;
+
+}
+
+.development{
+    border-radius: 8px 8px 8px 8px;
+    left: 0;
+}
+
+.finance{
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+.catering {
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+
+/* youth */
+.youth{
+    border-radius: 8px 8px 8px 8px;
+}
+
+/* Sunday School*/
+.sunday-school, .first-wed{
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+}
+
+
+/* Events */
+.events{
+    background: black;
+    color: white;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+
+
+/* Service Dept CSS*/
+.service-dep-main-hd, .youth-main-hd, .sunday-school-main-hd, .events-main-hd, .youth-sunday-school-main-hd, .youth-weds-main-hd, .bride-groom-main-hd{
+ font-family: monaco;
+    font-weight: bold;
+    font-size: 1.6em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.dvpt-hd, .finance-hd, .catering-hd, .conferences-hd, .weds-hd, .leader-meetings-hd{
+    font-family: monaco;
+    font-weight: bold;
+    font-size: 1.3em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.dvpt-content, .finance-content, .catering-content, .youth-content, .sunday-school-content, .conf-content, .weds-content, .leader-meetings-content, .events-content, .wed-image{
+   font-family: monospace; 
+   margin-left: 1em;
+}
+
+
+.weds{
+      padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+
+/* youth weds */
+.bride-groom-main-hd{
+    font-size: 11pt;
+}
+
+
+.wed-dates{
+    font-family: monaco;
+    font-weight: bold;
+    font-size: 9pt;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* media queries */
+
+@media(max-width: 768px){.hdr-text{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    text-align: center;
+    color: white;
+    font-size: 1.6em;
+    font-family: monospace;
+    font-weight: bold;
+    z-index: ;
+    opacity: 95%;
+    
+}
+}
+
+
+@media(max-width: 768px){.hdr-txt2{
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    text-align: center;
+    color: silver;
+    font-size: 1.5em;
+    font-family: monospace;
+    font-weight: bold;
+    z-index: ;
+  }  
+}
+
+@media(max-width: 768px){.hdr{
+    opacity: 45%;
+    background-color: navy;
+}
+    
+}
+
+
+
+@media(min-width: 770px){ .service-dep{
+background: whit;
+}
+    
+}
+
+/* service dep large screens*/
+@media(min-width: 770px){.development, .finance, .catering{
+    position: relative;
+    background: navy;
+    color: white;
+    z-index: -1;
+}
+    
+}
+
+/* service dep small screens */
+@media(max-width: 768px){ .development, .finance, .catering{
+    background: white;
+    color: navy;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    
+} 
+    
+}
+
+/* service dep main hd small screens */
+@media(max-width: 768px){.service-dep-main-hd{
+    color: white;
+    
+}
+    
+}
+
+
+
+@media(min-width: 770px){.service-dep-main-hd{
+    color: navy;
+}
+    
+}
+
+/* service dep parent element small screens*/
+@media(max-width: 768px){.service-dep{
+background: navy;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+    
+}
+
+/* body and html */
+@media(max-width: 768px){html, body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+    
+}
+
+/* large screens */
+@media(min-width: 770px){html, body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+    
+}
+
+
+
+/* YOUTH AND SUNDAY SCHOOL */
+
+/* small screens */
+@media(max-width: 768px){.youth-sunday-school-main-hd{
+    color: navy;
+    
+}
+    
+}
+
+
+/* large screens */
+@media(min-width: 770px){.youth-sunday-school-main-hd{
+    color: white;
+    
+}
+    
+}
+
+/* small screens */
+@media(max-width: 768px){.youth-sunday-school{
+background: white;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+    
+}
+
+/* large screens */
+@media(min-width: 770px){ .youth-sunday-school{
+background: nav;
+z-index: ;
+}
+    
+}
+
+
+/* youth sunday school large screens*/
+@media(min-width: 770px){.youth, .sunday-school, .first-wed{
+    position: relative;
+    background: white;
+    color: navy;
+    z-index: -1;
+}
+    
+}
+
+/* youth sunday school small screens */
+@media(max-width: 768px){ .youth, .sunday-school, .first-wed{
+    background: navy;
+    color: white;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    
+} 
+    
+}
+
+
+
+/* EVENTS */
+/* small screens */
+@media(max-width: 768px){.events-main-hd, .events-content{
+    color: navy;
+    
+}
+    
+}
+
+
+/* large screens */
+@media(min-width: 770px){.events-main-hd{
+    color: white;
+    
+}
+    
+}
+
+
+
+/* small screens */
+@media(max-width: 768px){.events{
+background: white;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+    
+}
+
+/* large screens */
+@media(min-width: 770px){ .events{
+background: navy;
+z-index: -2;
+}
+    
+}
+
+
+/* events large screens*/
+@media(min-width: 770px){.weds, .conferences, .meetings{
+    position: relative;
+    background: white;
+    color: navy;
+    z-index: -1;
+    border-radius: 8px 8px 8px 8px;
+   
+}
+    
+}
+
+@media(min-width: 770px){.weds-content, .conf-content, .leader-meetings-content{
+    position: relative;
+}
+    
+}
+
+/* events small screens */
+@media(max-width: 768px){ .weds, .meetings, .conferences{
+    background: navy;
+    color: white;
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 100%;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    border-radius: 8px 8px 8px 8px;
+    
+} 
+    
+}
+
+
+
+/* Wedding Cards */
+/* small screens */
+@media(max-width: 768px){.wedding-invitation-cards{
+background: white;
+    padding-left: 0;
+    margin-left: 0;
+    width: 100vw;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+    
+}
+
+/* large screens */
+@media(min-width: 770px){ .wedding-invitation-cards{
+background: nav;
+z-index: ;
+}
+    
+}
+
+
+/* small screens */
+@media(max-width: 768px){.youth-weds-main-hd{
+    color: navy;
+    
+}
+    
+}
+
+
+/* large screens */
+@media(min-width: 770px){.youth-weds-main-hd{
+    color: white;
+    
+}
+    
+}
+
+
+/* wed images */
+
+/* small screens */
+@media(max-width: 768px){.wed-image{
+    max-height: 60vh;
+    width: 90vw;
+    position: relative;
+    margin-left: 0;
+    padding-left: 0;
+}
+    
+}
+
+
+/* large screens */
+@media(min-width: 770px){.wed-image{
+    max-height: 60vh;
+}
+    
+}
+
+
+
+/* Making images overflow but not the whole body*/
+@media(min-width: 770px){.wedding-invitation-cards{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+    
+}
+
+.first-wed{
+    display: inline-block;
+    width: calc(33.33%-20px);
+    margin: 10px;
+}
+
+.wed-images{
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width: 768px){.first-wed{
+    width: calc(50%-20px);
+}
+    
+}
+
+
+
+/* Css for next event */
+#invitation-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+
