@@ -54,7 +54,7 @@ body {
             
         
         .navlist{
-            font-size: 2em;
+            font-size: 0.9em;
             color: white;
             text-decoration: none;
             font-family: serif;
@@ -90,7 +90,7 @@ body {
     ul li a {
     text-decoration: none;
     border-radius: 6px;
-    : black;
+  
 }
 
 ul li a:hover{

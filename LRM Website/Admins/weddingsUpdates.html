@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+         <!-- Meta information-->
+        <meta name="viewport",
+        content="width=device-width, 
+        initial-scale: 1.0"/>
+
+        <meta name="author"  content="Sir Enocks"/>
+        
+        <title>
+            Form for weddings updates
+        </title>
+        
+ <!-- Linking Custom Css -->
+   <link rel="stylesheet" href="adminAssets/css/forms.css">
+        
+    </head>
+
+<!-- BODY/MAIN CONTENT BODY/MAIN CONTENT BODY/MAIN CONTENT -->
+
+
+    <body>
+        
+      <!-- LOGO IMAGE -->
+    <center >
+        
+        <div class="church-logo" style="display: grid; place-items: center">
+    
+            <div class="container">
+       <br><br> <br>      
+        <img src="pictures/header.jpg" alt="LRM Zimbabwe" class="img-fluid logo-img"><br><span class="official-name"><i>Latter Rain Mission Zimbabwe.</i></span>
+        </div>
+        </div>
+        </center>  <br><br>
+    <!-- END OF LOGO IMAGE-->
+     
+        
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h1>Weddings Admin DashBoard </h1>
+            </div>
+
+            <div class="dashboard-content">
+                <h2> Add New Event</h2>
+
+
+                <!-- My Form-->
+                <form action="weddingsUpload.php" method="post" enctype="multipart/form-data">
+
+                     <!-- Names -->
+                     <div class="form-group">
+                        <label for="bgnames"> Bride & Groom:</label>
+
+                        <input type="text" id="bgnames" name="bgnames" required>
+                    </div>
+
+                    <!-- Invitiation Card-->
+                    <div class="form-group">
+                        <label for="image"> Invitation Card:</label>
+
+                        <input type="file" id="image" name="image" accept="image/*" required>
+                    </div>
+
+
+                    <!-- Date-->
+                    <div class="form-group">
+                        <label for="date"> Dates: </label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+
+                    <!-- Venue 1-->
+                    <div class="form-group">
+                        <label for="venue"> Venue 1:</label>
+
+                        <input type="text" id="venue" name="venue_first" required>
+                    </div>
+
+
+                    <!-- Venue 2 -->
+                    <div class="form-group">
+                        <label for="venue"> Venue 2:</label>
+
+                        <input type="text" id="venue" name="venue_second" required>
+                    </div>
+
+
+                    <!-- Submit button-->
+                    <div class="form-group">
+                        <input type="submit" value="Add Event">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </body>
+</html>

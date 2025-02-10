@@ -25,7 +25,7 @@
 <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <title>Page title</title>
+    <title>LRM Chomunanga Region</title>
    
    <!-- Linking Custom Css -->
    <link rel="stylesheet" href="assets/css/sidebar.css"> 
@@ -279,22 +279,25 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
   </button>
   
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <li><a class="dropdown-item" href="Admin/admindashboard.html">Weddings</a></li>
+    <li><a class="dropdown-item" href="Admins/weddingsUpdates.html">Weddings</a></li>
     
      <li> <hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="Admin/Development.html">Development</a></li>
+    <li><a class="dropdown-item" href="Admins/Development/development.html">Development</a></li>
     
      <li> <hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="Admin/Finance.html">Finance</a></li>
+    <li><a class="dropdown-item" href="Admins/Finance/finance.html">Finance</a></li>
     
     <li> <hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="Admin/Catering.html">Catering</a></li>
+    <li><a class="dropdown-item" href="Admins/Catering/catering.html">Catering</a></li>
     
      <li> <hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="Admin/Youth.html">Youth</a></li>
+    <li><a class="dropdown-item" href="Admins/Youth/youth.html">Youth</a></li>
     
     <li> <hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="Admin/Sunday_school.html">Sunday School</a></li>
+    <li><a class="dropdown-item" href="Admins/SundaySchool/sundaySchool.html">Sunday School</a></li>
+    
+     <li> <hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="Admins/Conferences/conferences.html">Conference</a></li>
     
   </ul>
 </div>
@@ -342,36 +345,42 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
     
     
     <!-- development --> 
-    <div id="development" class="container container-fluid development col-md my-2 mx-3 container-lg d-md-block">
+    <div id="developmen" class="container container-fluid development col-md my-2 mx-3 container-lg d-md-block">
         
     <span class="dvpt-hd">Development</span> 
     
-    <p class="container dvpt-content">
-  This section is for Development related information. The information here is accurate and upto date.
+    <p class="container dvpt-content" id="development">
+ 
+<!-- This is where development information will come-->
+
     </p>
         
     </div>  
         
        
       <!-- finance --> 
-    <div id="finance" class="container container-fluid finance col-md my-2 mx-3 container-lg d-md-block">
+    <div class="container container-fluid finance col-md my-2 mx-3 container-lg d-md-block">
         
     <span class="finance-hd">Finance</span> 
     
-    <p class="container finance-content">
-  This section is for Finance related information. The information here is accurate and upto date.
+    <p class="container finance-content" id="finance">
+  
+  <!-- This is where finance information will come.-->
+  
     </p>
         
     </div>  
           
        
      <!-- catering --> 
-    <div id="catering" class="container container-fluid catering col-md my-2 mx-3 container-lg d-md-block ">
+    <div id="caterin" class="container container-fluid catering col-md my-2 mx-3 container-lg d-md-block ">
         
     <span class="catering-hd">Catering</span> 
     
-    <p class="container catering-content">
-  This section is for Catering related information. The information here is accurate and upto date.
+    <p class="container catering-content" id="catering">
+  
+<!-- This is where catering information will come-->
+
     </p>
         
     </div>       
@@ -386,15 +395,17 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
     </span></center>
     
     <!-- YOUTH -->
-    <div class="container container-fluid youth col-md my-2 mx-3 container-lg d-md-block" id="youth">
+    <div class="container container-fluid youth col-md my-2 mx-3 container-lg d-md-block" id="yout">
         
         <center>
         <span class="container youth-main-hd">
             Youth
         </span>
         </center>
-         <p class="container youth-content">
-  This section is for Youth related information. The information here is accurate and upto date.
+         <p class="container youth-content" id="youth">
+  
+<!-- This is where youth related information will come-->
+
     </p>
         
     </div>
@@ -410,8 +421,11 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
             Sunday School 
         </span>
         </center>
-         <p class="container sunday-school-content">
-  This section is for Sunday School related information. The information here is accurate and upto date.
+         <p class="container sunday-school-content" id="sundayschool">
+
+
+<!-- This is where sunday-school information will come-->
+
     </p>
       </div>  
     </div><br><br>
@@ -438,27 +452,18 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
      
     
     <!-- Conferences --> 
-    <div id="conferences" class="container container-fluid conferences col-md my-2 mx-3 container-lg d-md-block">
+    <div id="conf" class="container container-fluid conferences col-md my-2 mx-3 container-lg d-md-block">
         
     <span class="conferences-hd">Conferences </span> 
     
-    <p class="container conf-content">
-  This section is for Conferences related information. The information here is accurate and upto date.
+    <p class="container conf-content" id="conferences">
+  
+<!-- This is where conferences related information will come-->
+
     </p>
         
     </div> 
               
-       
-    <!-- Special Leadership Meetings --> 
-    <div id="meetings" class="container container-fluid meetings col-md my-2 mx-3 container-lg d-md-block">
-        
-    <span class="leader-meetings-hd">Leadership Meetings </span> 
-    
-    <p class="container leader-meetings-content">
-  This section is for Leadership Meetings related information. The information here is accurate and upto date.
-    </p></center>
-      </div>  
-      
       
       <!-- Next wedding detected by system date-->
       
@@ -469,8 +474,11 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
         
     <span class="weds-hd">Weddings </span> 
     
-    <p class=" weds-content">
-  This section is for Weddings related information. The information here is accurate and upto date.
+    <p class=" weds-content" id="weddings">
+  
+
+<!-- This section is for some wedding information-->
+
     </p> 
    
    </center>
@@ -635,8 +643,25 @@ HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION: HEADER SECTION:
     
     
    <!-- Custom js -->
-    <script src="assets/js/main.js"></script>   
+    <script src="assets/js/navbar.js"></script>   
+
+    <!-- Weddings section updates-->
+    <script src="Admins/weddingsUpdates.js"></script>   
     
+   <!-- All Forms js --> 
+  <script src="Admins/Finance/forms.js"></script>
+
+  <script src="Admins/Development/devForms.js"></script>
+
+  <script src="Admins/Catering/catForms.js"></script>
+
+  <script src="Admins/Youth/youthForms.js"></script>
+
+  <script src="Admins/SundaySchool/ssForms.js"></script>
+
+  <script src="Admins/Conferences/confForms.js"></script>
+
+  <script src="Admins/Weddings/wedsForms.js"></script>
   
 </body>
 </html>     
